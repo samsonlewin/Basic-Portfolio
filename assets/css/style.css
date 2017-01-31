@@ -141,7 +141,17 @@ li:last-child {
 	float: left;
 	display: inline;
 	margin-right:20px; 
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
+
+.profile_pic:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
 
 .image_portfolio{
 	width: 250px;
@@ -283,10 +293,6 @@ p{
 .project_name:hover {
 	background-color: #ffffff;
 	color: #4aaaa5;
-}
-
-.profile_pic:hover{
-	opacity: 0.2;
 }
 
 #call_me{
