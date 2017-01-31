@@ -259,6 +259,11 @@ p{
 
 }
 
+.submit:hover{
+	background-color: #ffffff;
+	color: #4aaaa5;
+}
+
 .project_name{
 	background-color: #4aaaa5;
 	color: #ffffff;
